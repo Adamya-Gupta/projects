@@ -131,6 +131,7 @@ section div h1{
     justify-content: center;
     align-content: center;
     
+    
          
 }
 
@@ -176,6 +177,11 @@ section div h1{
     font-size: 20;
 }
 
+#about p2{
+    font-weight: 800;
+    color: wheat;
+}
+
 .button{
     padding: 5px;
     margin: 5%;
@@ -186,6 +192,9 @@ section div h1{
     font-size: 40;
     background-color: rgb(3, 200, 3);
     transition: .5s;
+    display: flex;
+    align-items: center;
+    
 }
 
 /* .button #whatsapp{
@@ -232,6 +241,57 @@ a{
     border: 2px solid rgb(8, 8, 77);
     color: rgb(8, 8, 77);
    
+}
+
+
+@media screen and (max-width: 600px){
+    #home h1{
+        font-size: 55px;
+        margin-top: 10%;
+    }
+
+    #status p{
+
+        margin-left: 10%;
+
+    }
+
+    #g1{
+        margin: 0 25vw;
+        font-size: 30;
+    }
+
+    #arihant{
+        margin-left: 10vw;
+        font-size: 30;
+        height: fit-content;
+        
+    }
+
+    #adamya{
+        margin-right: 10vw;
+        font-size: 30;
+        height: fit-content;
+        
+    }
+
+  
+    header{
+        visibility: hidden;
+    }
+
+    #about{
+        text-align: left;
+    }
+    #about h1{
+        text-align: center;
+    }
+    #rules p{
+        margin: 0;
+    }
+
+   
+
 }
 
 
