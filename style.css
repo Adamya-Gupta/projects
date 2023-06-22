@@ -121,6 +121,10 @@ section div h1{
     color: rgb(92, 255, 92);
 }
 
+.Players ol li{
+    margin: 1 20px;
+}
+
 .Eliminated{
     color: rgb(253, 57, 57);
 }
@@ -140,22 +144,21 @@ section div h1{
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
     align-content:center ;
-    margin-left: 37%;
-   margin-top: 0;
-   margin-bottom: 0;
+    margin: 0 50%;
+   
 }       
 
 #status p{
     
     padding: 5px;
     Margin: 25px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     font-size: 20;
     font-weight: 700;
     background-color: rgba(128, 128, 128, 0.693);
     border: 2px solid black;
     border-radius: 10px;
-    width: 90%;
+    /* width: 90%; */
     color: rgb(7, 227, 161);
     justify-content: space-between;
     
@@ -197,10 +200,6 @@ section div h1{
     
 }
 
-/* .button #whatsapp{
-    margin: 0;
-    padding: 0;
-} */
 
 .button:hover{
     cursor: pointer;
@@ -217,7 +216,9 @@ a{
 
 #arihant {
 
-    margin-left: 50%;
+    margin: 0;
+    margin-bottom: 90%;
+    margin-left: 40%;
     background-color: #007ddc;
 
 
@@ -231,9 +232,12 @@ a{
 
 
 #adamya{
-    margin-right: 50%;
+    margin: 0;
+    margin-bottom: 90%;
+    margin-left: 40%;
     background-color: rgb(8, 8, 77);
     border: 2px solid #007ddc;
+    
 }
 
 #adamya:hover{
@@ -243,6 +247,16 @@ a{
    
 }
 
+.contain{
+    margin: 0;
+}
+
+.strike{
+    text-decoration: line-through 2px black;
+    
+}
+
+/*Media queries*/
 
 @media screen and (max-width: 600px){
     #home h1{
@@ -262,14 +276,14 @@ a{
     }
 
     #arihant{
-        margin-left: 10vw;
+        margin: 0 10vw;
         font-size: 30;
         height: fit-content;
         
     }
 
     #adamya{
-        margin-right: 10vw;
+        margin: 0 10vw;
         font-size: 30;
         height: fit-content;
         
@@ -290,6 +304,12 @@ a{
         margin: 0;
     }
 
+    .Players{
+        width: 95%;
+        
+    }
+
+    
    
 
 }
