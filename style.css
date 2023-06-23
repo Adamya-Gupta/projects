@@ -15,16 +15,11 @@ body{
     
     color: aliceblue;
 
-    background: url('photo.jpg') no-repeat; 
+    background: url('photo.jpg') no-repeat;    
     background-size: cover;
     background-position: center; 
 
-    /* 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-*/
-
+ 
 }
 
 header{
@@ -78,14 +73,28 @@ section div h1{
     font-size: 70;
     
     }
+
+#home p{
+    font-weight: 900;
+    color:rgb(0, 255, 247);
+} 
+    
 #rules p{
     margin: 40px;
     text-align:left;
     font-weight: 700;
-    color: wheat;
+    color: rgb(70, 254, 3);
     font-size: 20;
     
     
+}
+
+#rules p1{
+    color: rgb(251, 201, 108);
+}
+
+#rules p3{
+    color: rgb(0, 255, 247);
 }
 
 
@@ -118,15 +127,23 @@ section div h1{
 
 
 .Players{
-    color: rgb(92, 255, 92);
+    color: rgb(0, 249, 50);
 }
 
 .Players ol li{
     margin: 1 20px;
+    
 }
 
 .Eliminated{
-    color: rgb(253, 57, 57);
+    color: rgb(0, 249, 50);
+    
+    
+    
+}
+
+.Eliminated ol li{
+    margin: 1 20px;
 }
 
 .contain{
@@ -159,7 +176,7 @@ section div h1{
     border: 2px solid black;
     border-radius: 10px;
     /* width: 90%; */
-    color: rgb(7, 227, 161);
+    color: rgb(70, 254, 3);
     justify-content: space-between;
     
 
@@ -182,7 +199,7 @@ section div h1{
 
 #about p2{
     font-weight: 800;
-    color: wheat;
+    color: rgb(251, 201, 108);
 }
 
 .button{
@@ -307,15 +324,14 @@ a{
     .Players{
         width: 95%;
         
-    }
-
-    
-   
+    }  
+  
 
 }
 
 
 /* KEYFRAMES ANIMATIONS */
+
 /* @keyframes showRight{
     100%{
         width: 0;
