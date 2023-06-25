@@ -27,13 +27,18 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 8px 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-}
+    background-color: rgba(0, 195, 255, 0.496);
+    position: relative;
+    
+    
+ 
+    }
 .logo{
     position: relative;
     font-size: 25px;
@@ -50,6 +55,11 @@ nav a{
     font-weight: 500;
     margin: left 25px;
     transition: .3s;
+    margin: 8px;
+    
+    
+   
+
 }
 
 nav a:hover{
