@@ -18,6 +18,7 @@ body{
     background: url('./HD-wallpaper-x-treme-skull-purge-skulls.jpg') no-repeat;    
     background-size: cover;
     background-position: center; 
+    
 
  
 }
@@ -161,19 +162,26 @@ section div h1{
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-content: center;
+    margin: 0;
     
     
          
 }
 
  #g1{
-    display: grid;
+    /* display: grid; */
+    display: flex;
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
     align-content:center ;
-    margin: 0 50%;
+    margin: 0 ;
+    padding: 0 ;
    
-}       
+}    
+
+#contact_us{
+    margin: 0;
+}
 
 #status p{
     
@@ -220,7 +228,7 @@ section div h1{
     width:fit-content;
     font-weight: 700;
     font-size: 40;
-    background-color: rgb(3, 200, 3);
+    background-color: #007ddc;
     transition: .5s;
     display: flex;
     align-items: center;
@@ -230,11 +238,12 @@ section div h1{
 
 .button:hover{
     cursor: pointer;
-    color: rgba(6, 249, 95, 0.618);
-    background-color: rgba(0, 0, 0, 0.759);
-    border: 2px solid gold;
-    /* padding: 1.5%; */
+    color: #00b7dc;
+    background-color:rgb(8, 8, 77);
+    border: 2px solid #00b7dc;
+    
 }
+
 a{
     text-decoration: none;
     color: inherit;
@@ -274,9 +283,6 @@ a{
    
 }
 
-.contain{
-    margin: 0;
-}
 
 .strike{
     text-decoration: line-through 2px black;
@@ -297,9 +303,8 @@ a{
         margin-left: 10%;
 
     }
-
-    #g1{
-        margin: 0 25vw;
+    
+    #contact_us{
         font-size: 30;
     }
 
@@ -327,10 +332,11 @@ a{
 
     body{
         background: none;
-        background: url(./HD-wallpaper-x-treme-skull-purge-skulls.jpg);
+        background: url(./HD-wallpaper-x-treme-skull-purge-skulls.jpg) ;
         /* background-size:cover ; */
         background-position: center;
         background-position-y:top ;
+        
 
     }
 
