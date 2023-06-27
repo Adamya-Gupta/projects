@@ -15,7 +15,7 @@ body{
     
     color: aliceblue;
 
-    background: url('photo.jpg') no-repeat;    
+    background: url('./HD-wallpaper-x-treme-skull-purge-skulls.jpg') no-repeat;    
     background-size: cover;
     background-position: center; 
 
@@ -55,21 +55,21 @@ nav a{
     font-weight: 500;
     margin: left 25px;
     transition: .3s;
-    margin: 8px;
-    
-    
+    margin: 0 8px;
+      
    
 
 }
 
 nav a:hover{
     color: aqua;
-    font-size: 20;
+    font-size: 18.2;
+    text-decoration: underline;
 
 }
 
 section div{
-    margin: 5%;
+    margin: 2% 5%;
     padding: 5px;
     text-align: center;
     
@@ -288,7 +288,8 @@ a{
 @media screen and (max-width: 600px){
     #home h1{
         font-size: 55px;
-        margin-top: 10%;
+        margin-top: o;
+        
     }
 
     #status p{
@@ -319,6 +320,18 @@ a{
   
     header{
         visibility: hidden;
+        position: absolute;
+       
+
+    }
+
+    body{
+        background: none;
+        background: url(./HD-wallpaper-x-treme-skull-purge-skulls.jpg);
+        /* background-size:cover ; */
+        background-position: center;
+        background-position-y:top ;
+
     }
 
     #about{
