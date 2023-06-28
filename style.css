@@ -158,9 +158,9 @@ section div h1{
 }
 
 .symbol ol{
-    margin: 2% ;
+    margin: 0 2% ;
     width: 100%;
-    margin-top: 0;
+   
 }
 
 .symbol ol li{
