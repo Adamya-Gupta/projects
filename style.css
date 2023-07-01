@@ -121,14 +121,12 @@ section div h1{
 #status p{
     
     padding: 5px;
-    Margin: 25px;
-    /* margin-left: 80px; */
+    Margin: 25px;    
     font-size: 20;
     font-weight: 700;
     background-color: rgba(128, 128, 128, 0.693);
     border: 2px solid black;
-    border-radius: 10px;
-    /* width: 90%; */
+    border-radius: 10px;   
     color: rgb(70, 254, 3);
     justify-content: space-between;
     
@@ -329,10 +327,18 @@ a{
         
     }
 
-    #status p{
+    /* #status p{
 
         margin-left: 10%;
 
+    } */
+
+    #status {
+        margin: 5%;
+    }
+
+    .symbol p1{
+        margin: 0 35%;
     }
 
     .symbol ol{
