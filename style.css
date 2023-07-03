@@ -5,6 +5,13 @@
     font-family: 'Poppins', sans-serif;
     
 }
+
+.black{
+    color: black;
+    
+    font-size: larger;
+}
+
 html{
     scroll-behavior: smooth;
   
